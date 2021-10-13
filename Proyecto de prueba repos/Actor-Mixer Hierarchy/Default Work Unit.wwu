@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{BE3895E4-8459-435E-B738-9DBF5B0B439B}" SchemaVersion="103">
 	<AudioObjects>
-		<WorkUnit Name="Default Work Unit" ID="{BE3895E4-8459-435E-B738-9DBF5B0B439B}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{BE3895E4-8459-435E-B738-9DBF5B0B439B}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="drone_viento" ID="{0ED7DB33-10EF-4E4C-B5EF-41A6AA60C631}" ShortID="216587798">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{3D13DDD8-C8EA-415C-A34E-B96643AC431E}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{417E0D1E-6C3B-4292-8531-323D660571F6}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="drone_viento" ID="{AF45233A-5521-4992-96C8-5053C277F865}">
+							<Language>SFX</Language>
+							<AudioFile>drone_viento.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="718901204"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ObjectLists/>
+					<ActiveSourceList>
+						<ActiveSource Name="drone_viento" ID="{AF45233A-5521-4992-96C8-5053C277F865}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>
